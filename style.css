@@ -1,13 +1,11 @@
-
-body{
-	background-color: black;
+html{
 	font-family: 'Big Shoulders Display', cursive;
 font-family: 'Fjalla One', sans-serif;
 font-family: 'Prata', serif;
 	margin: 0 200px 0 200px;
 	line-height: 1.6;
 	animation-name: bgColor-time-change;
-	animation-duration: 10s;
+	animation-duration: 12s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: infinite;
   animation-delay: 0s;
@@ -23,9 +21,9 @@ font-family: 'Prata', serif;
 @keyframes bgColor-time-change {
   0%   {background-color: yellow;}
   25%  {background-color: orange;}
-  50%  {background-color: red;}
+  50%  {background-color: pink;}
   75%  {background-color: white;}
-  100% {background-color: pink;}
+  100% {background-color: green;}
 }
 @media screen and (min-width: 600px), screen and (orientation: landscape) {
     body {
