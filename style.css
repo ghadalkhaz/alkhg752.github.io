@@ -22,11 +22,10 @@ font-family: 'Prata', serif;
   0%   {background-color: yellow;}
   25%  {background-color: orange;}
   50%  {background-color: pink;}
-  75%  {background-color: white;}
+  75%  {background-color: purple;}
   100% {background-color: green;}
 }
-@media screen and (min-width: 600px), screen and (orientation: landscape) {
+@media screen and (min-width: 600px), screen and (orientation: landscape)
     body {
         font-size: 12pt;
     }
-}
