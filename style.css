@@ -5,13 +5,29 @@ font-family: 'Prata', serif;
 	margin: 0 200px 0 200px;
 	line-height: 1.6;
 	animation-name: bgColor-time-change;
-	animation-duration: 12s;
+	animation-duration: 15s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: infinite;
   animation-delay: 0s;
+  text-align: center;
 }
 
+h1{
+       text-align: center;
+    color: #fff3db;
+    text-shadow: 4px 4px #a88154;
+    font-weight: bold;
+    font-family: 'Garamond', serif;
+    font-size: 60px;
+}
 
+h2 {
+  font-family: 'Alegreya', serif;
+}
+
+h3 {
+  text-align: left;
+}
 
 @keyframes bg-change {
   from {background-color: #763cff;}
@@ -23,7 +39,7 @@ font-family: 'Prata', serif;
   25%  {background-color: orange;}
   50%  {background-color: pink;}
   75%  {background-color: purple;}
-  100% {background-color: green;}
+  100% {background-color: blue;}
 }
 @media screen and (min-width: 600px), screen and (orientation: landscape)
     body {
