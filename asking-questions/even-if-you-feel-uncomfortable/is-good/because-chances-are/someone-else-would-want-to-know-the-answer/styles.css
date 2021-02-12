@@ -1,0 +1,54 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+}
+
+html{
+  animation-name: bgColor-time-change;
+	animation-duration: 15s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+  animation-delay: 0s;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  font-size: 100px;
+  color: #793EFE;
+}
+
+
+#me {
+  position: absolute;
+  width: 440px;
+  height: 190px;
+  right: 10%;
+  top: calc(50% - 100px);
+  border: 1px solid #000000;
+  background-color: #D6C4FF;
+  -webkit-box-shadow: 6px 8px 60px 6px rgba(5, 70, 10, 1);
+  -moz-box-shadow: 60px 8px 60px 6px rgba(30, 7, 5, 15);
+  border-radius: 50px;
+}
+
+h2{
+  font-family: font-family: 'Lexend Mega', sans-serif;
+}
+
+h3 {
+  font-family: 'Lexend Mega', sans-serif;
+  font-style: italic;
+  color: #793EFE;
+  text-align: left;
+}
+
+@keyframes bgColor-time-change {
+  0%   {background-color: #E1FFD9;}
+  25%  {background-color: #D0FE9D;}
+  50%  {background-color: #EAFE76;}
+  75%  {background-color: #FEFC76;}
+  100% {background-color: #FFF03F;}
+}
