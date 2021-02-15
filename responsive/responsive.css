@@ -1,0 +1,102 @@
+body {
+  margin: 2em;
+    background-color: red;
+    font-size: 16px;
+    margin: 5%;
+}
+
+@media screen and (min-width: 769px) {
+h1 {
+    /* some styles */
+  font-family: 'Lexend Mega', sans-serif;
+  color: yellow;
+    font-size: 8em;
+    line-height: 1;
+}
+}
+
+@media screen and (min-width: 481px) {
+h1 {
+    /* some styles */
+   font-family: 'Lexend Mega', sans-serif;
+    color: green;
+    font-size: 4em;
+    font-weight: 500;
+}
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+h2 {
+    /* some styles */
+    font-family: font-family: 'Benne', serif;
+    text-align: right;
+    color: lightblue;
+    font-weight: 600;
+}
+}
+
+@media screen and (min-width: 481px) {
+h2 {
+    /* some styles */
+    font-family: font-family: 'Benne', serif;
+  text-align: right;
+    color: yellow;
+    font-size: 2.5em;
+}
+}
+
+h2 {
+  /* some styles */
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+  @media screen and (min-width: 769px) {
+    /* some styles */
+  font-family: 'Arvo', serif;
+    max-width: 40%;
+    padding: 1%;
+}
+}
+
+@media screen and (min-width: 769px) {
+.container {
+  /* some styles */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+}
+
+
+@media screen and (min-width: 481px) {
+p {
+    /* some styles */
+  font-family: 'Arvo', serif;
+    color: white;
+    line-height: 2;
+}
+}
+
+@media screen and (min-width: 769px) {
+body {
+  /* some styles */
+    background-color: pink;
+}
+}

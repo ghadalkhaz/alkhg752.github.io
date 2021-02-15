@@ -1,34 +1,13 @@
-
-body{
-	background-color: black;
+html {
+	background-color: pink;
 	font-family: 'Big Shoulders Display', cursive;
 font-family: 'Fjalla One', sans-serif;
 font-family: 'Prata', serif;
-	margin: 0 200px 0 200px;
-	line-height: 1.6;
-	animation-name: bgColor-time-change;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-iteration-count: infinite;
-  animation-delay: 0s;
+  margin: 0 200px 0 200px;
+  font-size: 100%;
+  line-height: 1.6;
 }
 
-
-
-@keyframes bg-change {
-  from {background-color: #763cff;}
-  to {background-color: #3cff70;}
-}
-
-@keyframes bgColor-time-change {
-  0%   {background-color: yellow;}
-  25%  {background-color: orange;}
-  50%  {background-color: red;}
-  75%  {background-color: white;}
-  100% {background-color: pink;}
-}
-@media screen and (min-width: 600px), screen and (orientation: landscape) {
-    body {
-        font-size: 12pt;
-    }
+#lyrics {
+  text-align: center;
 }
