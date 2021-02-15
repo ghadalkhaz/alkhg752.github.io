@@ -1,0 +1,15 @@
+body {
+ font-family: 'Alegreya', serif;
+  margin: 2em;
+  background-color: #B8FFE3;
+}
+
+h3 {
+  font-family: 'Lexend Mega', sans-serif;
+  font-style: italic;
+  color: #F80BF1;
+}
+
+h2 {
+  background-color: #FFFF00
+}
