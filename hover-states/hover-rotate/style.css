@@ -1,0 +1,55 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background-color: black;
+    overflow: hidden
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: red;
+  text-align: center;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+    padding-top: 100px;
+	position: relative;
+}
+
+
+/* phrase style */
+p {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+.phrase2 {
+     transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+/* hover */
+
+.phrase1:hover {
+  font-family: 'Great Vibes', cursive;
+  	transform: rotate(15deg);
+    cursor: pointer;
+  color: #FF00E0;
+}
+
+.phrase2:hover {
+  font-family: 'Great Vibes', cursive;
+  	transform: rotate(-15deg);
+    cursor: pointer;
+color: #6AC0FF;
+}
