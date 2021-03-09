@@ -1,0 +1,24 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+  color: #FF00FF;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+h2:hover {
+    color: #FFC2FF;
+    cursor: pointer;
+}

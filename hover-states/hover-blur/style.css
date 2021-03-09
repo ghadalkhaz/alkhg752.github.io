@@ -1,0 +1,45 @@
+body {
+    background-color: #FFA971;
+}
+
+h1 {
+font-family: 'Concert One', cursive;
+  font-size: 50px;
+}
+
+.canvas {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 100px;
+    text-align: center;
+    color: #004DFF;
+}
+
+.phrase1, .phrase2 {
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    padding: 20px;
+}
+
+.phrase1:hover {
+    filter: blur(30px);
+    cursor: pointer;
+}
+
+
+.phrase2:hover {
+    filter: blur(30px);
+    cursor: pointer;
+  color: white;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
