@@ -1,0 +1,54 @@
+body {
+    background-color: #031133;
+}
+
+h2 {
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: 70px;
+  color: #D7B21D;
+}
+
+.canvas {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    text-align: center;
+}
+
+.phrase1, .phrase2, .phrase3 {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    padding: 20px;
+}
+
+.phrase1:hover {
+    transform: translateX(-200px);
+    cursor: pointer;
+  border: 3px solid white;
+}
+
+.phrase2:hover {
+  font-family: 'Bebas Neue', cursive;
+  border: 3px solid #29ABF0;
+    transform: scale(1.5);
+    cursor: pointer;
+  color: white;
+  border-radius: 50%;
+  font-size: 50px;
+}
+
+.phrase3:hover {
+    transform: translateX(200px);
+    cursor: pointer;
+  border: 3px solid white;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
