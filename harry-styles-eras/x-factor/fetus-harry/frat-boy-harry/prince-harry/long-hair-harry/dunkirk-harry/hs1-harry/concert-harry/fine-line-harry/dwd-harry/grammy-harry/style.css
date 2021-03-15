@@ -1,0 +1,74 @@
+body {
+    background-image:url('https://cdn.glitch.com/0327ddb8-9661-4fe1-a168-4ef54d5cd6b7%2Fsource.gif?v=1615786252917');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.btn {
+  position: absolute;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  margin: 6px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  top: 85%;
+  left: 90%;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 4px 4px 4px #485A2C;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #485A2C;
+  font-size: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-shadow: 2px 2px 2px white;
+}
+
+.press {
+  position: absolute;
+  top: 77%;
+  left: 88%;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  color: #FFC9CF;
+  font-size: 30px;
+  text-shadow: 2px 3px 2px #4C2222;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #FFC9CF;
+  font-size: 40px;
+  text-align: center;
+  text-justify: inter-word;
+  text-shadow: 2px 2px 4px #4C2222;
+}
