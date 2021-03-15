@@ -1,0 +1,50 @@
+body {
+    background-image:url('https://cdn.glitch.com/c7b2329b-ae42-48a9-8884-599ca99129de%2Ftumblr_cbdf5b4504f7b4745ec13f6f5a8eac8a_11de3092_540.webp?v=1615683495009');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.btn {
+  position: absolute;
+  top: 85%;
+  left: 92%;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  color: #4D7A6E;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 4px 4px 2px black;
+}
+
+p {
+  font-family: 'Shrikhand', cursive;
+  color: #DFC1A4;
+  font-size: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-shadow: 4px 4px 2px #4D7A6E;
+}
+
+.press {
+  position: absolute;
+  top: 77%;
+  left: 88%;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  color: #E54161;
+  font-size: 30px;
+  text-shadow: 2px 3px 2px #DFC1A4;
+}
+
+.music {
+  position: absolute;
+  top: 2%;
+  left: 80%;
+}

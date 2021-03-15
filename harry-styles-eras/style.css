@@ -1,0 +1,63 @@
+body {
+    background-image:url('https://cdn.glitch.com/ec28d44c-f0f4-4a46-aaf6-14c1b378e317%2Fhs_fast.gif?v=1615789422269');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.btn {
+  position: absolute;
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  margin: 6px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  top: 85%;
+  left: 44%;
+}
+
+.btn {
+  background-color: black;
+  color: black;
+  border: 5px solid white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: white;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  text-align: center;
+  font-size: 90px;
+}
+
+h2 {
+  font-family: 'Chonburi', cursive;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.press {
+  position: absolute;
+  top: 77%;
+  left: 88%;
+}
+
+h3 {
+  font-family: 'Fredoka One', cursive;
+  color: #FFC9CF;
+  font-size: 30px;
+  text-shadow: 2px 3px 2px #4C2222;
+  text-align: center;
+}

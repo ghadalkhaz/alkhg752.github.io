@@ -1,0 +1,50 @@
+body {
+    background-image:url('https://cdn.glitch.com/d1b22955-4009-4833-b203-83cabe5fc41e%2F9eaf9b861b63dbd0558d370f250d3d2d.gif?v=1615682679957');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.btn {
+  position: absolute;
+  top: 84%;
+  left: 87%;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 2px 3px 4px #FFF;
+}
+
+p {
+  font-family: 'Tangerine', cursive;
+  color: white;
+  font-size: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-shadow: 2px 3px 3px black;
+}
+
+.press {
+  position: absolute;
+  top: 77%;
+  left: 87.5%;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px white;
+}
+
+.music {
+  position: absolute;
+  top: 2%;
+  left: 80%;
+}
