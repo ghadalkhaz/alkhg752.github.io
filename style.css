@@ -1,46 +1,37 @@
 html{
-	font-family: 'Big Shoulders Display', cursive;
+font-family: 'Big Shoulders Display', cursive;
 font-family: 'Fjalla One', sans-serif;
 font-family: 'Prata', serif;
-	margin: 0 200px 0 200px;
-	line-height: 1.6;
-	animation-name: bgColor-time-change;
-	animation-duration: 15s;
-	animation-fill-mode: forwards;
-	animation-iteration-count: infinite;
-  animation-delay: 0s;
-  text-align: center;
+margin: 0 200px 0 200px;
+line-height: 1.6;
+text-align: center;
+background-color: #E2FF9E;
 }
 
 h1{
-       text-align: center;
-    color: #fff3db;
-    text-shadow: 4px 4px #a88154;
+    text-align: center;
+    color: #E400FF;
+    text-shadow: 4px 4px #000;
     font-weight: bold;
-    font-family: 'Garamond', serif;
-    font-size: 60px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 70px;
+
 }
 
 h2 {
-  font-family: 'Alegreya', serif;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
 }
 
 h3 {
   text-align: left;
+  font-size: 25px;
 }
 
-@keyframes bg-change {
-  from {background-color: #763cff;}
-  to {background-color: #3cff70;}
+h4 {
+  font-size: 20px;
 }
 
-@keyframes bgColor-time-change {
-  0%   {background-color: yellow;}
-  25%  {background-color: orange;}
-  50%  {background-color: pink;}
-  75%  {background-color: purple;}
-  100% {background-color: blue;}
-}
 @media screen and (min-width: 600px), screen and (orientation: landscape)
     body {
         font-size: 12pt;
