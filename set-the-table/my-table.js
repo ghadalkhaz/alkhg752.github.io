@@ -16,6 +16,7 @@ var base = new Airtable({ apiKey: "keyG2Wf5M11sCQpuP" }).base(
 
 // create an empty array for all of your items to go into
 let allItems = [];
+let allFoodItems = [];
 
 // inside the () after base put the name of YOUR spreadsheet
 base('my-dinner-table').select({}).eachPage(function page(tableItems, fetchNextPage) {
@@ -39,90 +40,41 @@ base('my-dinner-table').select({}).eachPage(function page(tableItems, fetchNextP
   setTable(allItems);
 });
 
-
+let container = document.createElement("div");
 function setTable(allItems) {
-  // make a container div and append it to the body
-  // this way we can append all of our items to a div which we can style later
-  // let container = document.createElement("div");
-  // container.classList.add("container");
-  // document.body.appendChild(container);
-  let container = document.createElement("div");
   container.classList.add("container");
   document.body.appendChild(container);
   let ghada = document.createElement("h1");
   ghada.classList.add("ghada");
   container.appendChild(ghada);
-  // run a forEach loop on your array, with each item
-  // then make a new HTML element and position it somewhere on the page
+
   allItems.forEach(function(item) {
-    // store the name of the item (from your spreadsheet) into a variable
     let name = item.fields.items;
-    // store the image for the item into a variable
     let imageUrl = item.fields.images[0].url;
-
-console.log(item.fields.images);
-    let itemImage = document.createElement('img');
-    itemImage.src = imageUrl;
-    itemImage.classList.add(item.fields.kind_of_item);
-    container.appendChild(itemImage);
-
-    // the following code is for making multiple cups and plates etc out of just one Airtable record and then positioning them in specific spots on the table. these are the names I used in my airtable, yours will be different!!
-    // here i want to do different things with different items
-    // so if the item is a Cup, I want to add a class name of cup, and put each one in a different position on the page.
-    // dont forget, some of the styling for my page here in JS and some is in my CSS file, for example I know that my .cup class has position: absolute set in CSS, which means that style.left and style.top will work here in the JS.
-
-    // if (name === "cup") {
-    //   for (var i=0; i<3; i++) {
-    //     let cup = document.createElement('img');
-    //     cup.src = imageUrl;
-    //     cup.classList.add("cup");
-    //
-    //     if (i === 0) {
-    //       cup.style.left = "80%";
-    //     }
-    //     if (i === 1) {
-    //       cup.style.left = "80%";
-    //       cup.style.top = "60%";
-    //     }
-    //     if (i === 2) {
-    //       cup.style.left = "10%";
-    //       cup.style.top = "10%";
-    //     }
-    //
-    //     container.appendChild(cup);
-    //   }
-    // }
-
-    // Same idea with the plates.
-    // if (name === "Plate") {
-    //   for (var i=0; i<3; i++) {
-    //     let plate = document.createElement('img');
-    //     plate.src = imageUrl;
-    //     plate.classList.add("plate");
-
-    //     if (i === 0) {
-    //       plate.style.left = "70%";
-    //       plate.style.top = "20%";
-    //     }
-    //     if (i === 1) {
-    //       plate.style.left = "55%";
-    //       plate.style.top = "60%";
-    //     }
-    //     if (i === 2) {
-    //       plate.style.left = "5%";
-    //       plate.style.top = "25%";
-    //     }
-
-    //     container.appendChild(plate);
-    //   }
-    // }
-
-    // Same idea with the tablecloth.
-    // if (name === "Tablecloth") {
-    //   let tablecloth = document.createElement('img');
-    //   tablecloth.src = imageUrl;
-    //   tablecloth.classList.add("tablecloth");
-    //   container.appendChild(tablecloth);
-    // }
+    let image = document.createElement("img");
+    image.src = imageUrl;
+    image.classList.add(item.fields.class_name);
+    if (item.fields.kind_of_item === "food"){
+      allFoodItems.push(item);
+    }
+    container.appendChild(image);
   })
+}
+let showFoodButton = document.getElementById("show-food");
+showFoodButton.addEventListener('click', showAllTheFood);
+
+function showAllTheFood() {
+  allFoodItems.forEach(function(foodItem) {
+    let food = document.createElement('img');
+    food.src = foodItem.fields.images[0].url;
+    food.classList.add(foodItem.fields.class_name);
+    food.style.display = "block";
+    container.appendChild(food);
+  })
+}
+let hideFoodButton = document.getElementById("hide-food");
+hideFoodButton.addEventListener('click', hideFood);
+
+function hideFood() {
+  console.log("hide food button is working")
 }
