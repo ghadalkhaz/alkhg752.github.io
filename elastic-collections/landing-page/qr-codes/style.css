@@ -1,0 +1,33 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: black;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+
+img {
+  width: 500vw;
+  left: 2vw;
+  top: 1vw;
+  position: relative;
+}
+
+.container img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}

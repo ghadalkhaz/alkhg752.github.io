@@ -1,0 +1,91 @@
+body {
+    background-image:url('https://cdn.glitch.com/6fc03539-9e02-42f2-bfa1-caaf593343f6%2FScreen%20Shot%202021-04-15%20at%204.37.57%20PM.png?v=1618519146583');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    margin: 0;
+}
+
+.box {
+  position: absolute;
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 50px 80px;
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  margin: 6px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  top: 20%;
+}
+
+.box {
+  background-color: white;
+  color: white;
+  border: 5px solid black;
+}
+
+.box:hover {
+  background-color: white;
+  color: white;
+}
+
+.btn {
+  position: absolute;
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 5px 50px;
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  margin: 6px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  top: 70%;
+  left: 42%;
+}
+
+.btn {
+  background-color: black;
+  color: black;
+  border: 5px solid white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: white;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  left: 500px;
+}
+
+h2 {
+  font-family: 'DotGothic16', sans-serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.press {
+  position: absolute;
+  top: 77%;
+  left: 88%;
+}
+
+.wrapper {
+font-family: sans-serif;
+width: 80%;
+margin: 0 auto;
+position: relative;
+}
