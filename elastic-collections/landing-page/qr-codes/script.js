@@ -218,7 +218,7 @@ function display_random_image() {
 
   // display the image
   console.log(newImage);
-  document.body.appendChild(newImage);
+  document.querySelector('.container').appendChild(newImage);
 }
 
 display_random_image();

@@ -31,3 +31,9 @@ input[type=checkbox]:checked ~ label > img {
   transform: scale(2);
   cursor: zoom-out;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
