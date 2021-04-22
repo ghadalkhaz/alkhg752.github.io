@@ -1,0 +1,23 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #EA5078;
+}
+
+h1 {
+  font-family: 'Changa One', cursive;
+  color: black;
+  font-size: 80px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Varela', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Varela', sans-serif;
+  font-size: 30px;
+}
