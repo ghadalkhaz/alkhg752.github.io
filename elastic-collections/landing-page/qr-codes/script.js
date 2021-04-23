@@ -1,4 +1,6 @@
+//A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output.
 function display_random_image() {
+  //var means variable, var and let are the same. Variables are containers for storing information
      var theImages = [{
         src: "https://cdn.glitch.com/319fa752-a039-442d-ab33-8ed73faf8d53%2FIMG_9703.JPG?v=1617910481575"
     }, {
@@ -192,33 +194,29 @@ function display_random_image() {
     }, ];
 
     var preBuffer = [];
+    //"for" loops through a block of code a number of times
     for (var i = 0, j = theImages.length; i < j; i++) {
         preBuffer[i] = new Image();
         preBuffer[i].src = theImages[i].src;
-        //preBuffer[i].width = theImages[i].width;
-        //preBuffer[i].height = theImages[i].height;
     }
 
-  // create random image number
   function getRandomInt(min,max) {
     var imn = Math.floor(Math.random() * (max - min + 1)) + min;
     return preBuffer[imn];
   }
 
-  // 0 is first image,   preBuffer.length - 1) is  last image
-
   var newImage = getRandomInt(0, preBuffer.length - 1);
 
-  // remove the previous images
   var images = document.getElementsByTagName('img');
   var l = images.length;
   for (var p = 0; p < l; p++) {
     images[0].parentNode.removeChild(images[0]);
   }
 
-  // display the image
+  // console.log is used to print any message that needs to be displayed to the user
   console.log(newImage);
   document.querySelector('.container').appendChild(newImage);
+  //appenedChild means that a node can't be in two points of the document simultaneously. So if the node already has a parent, the node is first removed, then appended at the new position.
 }
 
 display_random_image();

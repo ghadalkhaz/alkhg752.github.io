@@ -54,6 +54,7 @@ function setTable(allItems) {
     let image = document.createElement("img");
     image.src = imageUrl;
     image.classList.add(item.fields.class_name);
+//if statements are for very specific cases or pieces of data.
     if (item.fields.kind_of_item === "food"){
       allFoodItems.push(item);
     }
