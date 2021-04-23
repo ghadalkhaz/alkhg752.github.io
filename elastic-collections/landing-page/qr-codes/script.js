@@ -211,12 +211,13 @@ function display_random_image() {
   var l = images.length;
   for (var p = 0; p < l; p++) {
     images[0].parentNode.removeChild(images[0]);
+    //parentNode read-only property returns the parent of the specified node, it is the parent of the current node.
   }
 
-  // console.log is used to print any message that needs to be displayed to the user
+  // console.log is used to print any message that needs to be displayed to the user/make sure my js file is connected to my html file
   console.log(newImage);
   document.querySelector('.container').appendChild(newImage);
-  //appenedChild means that a node can't be in two points of the document simultaneously. So if the node already has a parent, the node is first removed, then appended at the new position.
+  //appenedChild means that a node can't be in two points of the document simultaneously. So if the node already has a parent, the node is first removed, then appended at the new position. It accepts only Node objects
 }
 
 display_random_image();
