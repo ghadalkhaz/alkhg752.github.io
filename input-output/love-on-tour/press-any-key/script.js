@@ -1,8 +1,9 @@
-//to play on the key A do this(using Jquery):
+//this loads the sound and identifies it by its tag e.g. 'audio'
 const audio = document.getElementById('audio');
-
+//adding an event for 'a' key to play sound when pressed
 document.addEventListener('keydown', function(e) {
   if (e.key === 'a') {
+//adding an event for when 'a' key is pressed again to pause the sound
   	if (!audio.paused) {
       audio.pause();
       audio.currentTime = 0;
