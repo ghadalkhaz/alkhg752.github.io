@@ -28,11 +28,9 @@ h2 {
 }
 
 .btn {
-  padding: 16px 32px;
-  transition-duration: 0.4s;
+  position: absolute;
   cursor: pointer;
   background-color: white;
-  border: 5px solid white;
 }
 
 .btn:hover {
