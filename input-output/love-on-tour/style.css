@@ -28,6 +28,7 @@ h2 {
 }
 
 .btn:hover {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
