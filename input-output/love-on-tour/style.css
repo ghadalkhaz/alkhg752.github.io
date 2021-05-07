@@ -27,13 +27,9 @@ h2 {
   color: white;
 }
 
-.btn {
+.btn:hover {
   position: absolute;
   cursor: pointer;
-  background-color: white;
-}
-
-.btn:hover {
   background-color: black;
   color: white;
 }
