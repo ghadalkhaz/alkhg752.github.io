@@ -28,6 +28,9 @@ h2 {
 }
 
 .btn {
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
   padding: 16px 32px;
   transition-duration: 0.4s;
   cursor: pointer;
