@@ -28,19 +28,11 @@ h2 {
 }
 
 .btn {
-  position: absolute;
-  background-color: white;
-  border: none;
-  color: white;
   padding: 16px 32px;
-  position: absolute;
-  text-decoration: none;
-  display: inline-block;
-  margin: 6px 8px;
   transition-duration: 0.4s;
   cursor: pointer;
-  top: 83%;
-  left: 44%;
+  background-color: white;
+  border: 5px solid white;
 }
 
 .btn {
@@ -50,6 +42,6 @@ h2 {
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: black;
   color: white;
 }
