@@ -28,6 +28,7 @@ h2 {
 }
 
 .btn:hover {
+  position: fixed;
   background-color: white;
   color: black;
 }
